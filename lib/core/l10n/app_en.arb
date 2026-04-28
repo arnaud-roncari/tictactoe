@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "appTitle": "TicTacToe",
+  "@appTitle": { "description": "Application title" },
+  "startGame": "Start Game",
+  "@startGame": { "description": "Button label to start the game" },
+  "restart": "Restart",
+  "@restart": { "description": "Button label to restart the game" },
+  "playerWins": "You win! 🎉",
+  "@playerWins": { "description": "Message shown when player wins" },
+  "aiWins": "AI wins!",
+  "@aiWins": { "description": "Message shown when AI wins" },
+  "draw": "It's a draw!",
+  "@draw": { "description": "Message shown on draw" },
+  "homeTitle": "TicTacToe",
+  "@homeTitle": { "description": "Home page title" },
+  "homeSubtitle": "Challenge the unbeatable AI",
+  "@homeSubtitle": { "description": "Home page subtitle" }
+}

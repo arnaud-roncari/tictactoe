@@ -1,0 +1,19 @@
+{
+  "@@locale": "fr",
+  "appTitle": "TicTacToe",
+  "@appTitle": { "description": "Titre de l'application" },
+  "startGame": "Commencer",
+  "@startGame": { "description": "Bouton pour démarrer la partie" },
+  "restart": "Recommencer",
+  "@restart": { "description": "Bouton pour recommencer la partie" },
+  "playerWins": "Vous gagnez ! 🎉",
+  "@playerWins": { "description": "Message affiché quand le joueur gagne" },
+  "aiWins": "L'IA gagne !",
+  "@aiWins": { "description": "Message affiché quand l'IA gagne" },
+  "draw": "Match nul !",
+  "@draw": { "description": "Message affiché en cas d'égalité" },
+  "homeTitle": "TicTacToe",
+  "@homeTitle": { "description": "Titre de la page d'accueil" },
+  "homeSubtitle": "Défiez l'IA imbattable",
+  "@homeSubtitle": { "description": "Sous-titre de la page d'accueil" }
+}
