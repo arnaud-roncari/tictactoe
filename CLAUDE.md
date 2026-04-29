@@ -24,6 +24,7 @@
 | [`rules/testing.md`](rules/testing.md)             | Unit + integration tests required per feature       |
 | [`rules/code_style.md`](rules/code_style.md)       | No nested ternaries — use private helper functions  |
 | [`rules/performance.md`](rules/performance.md)     | Forbidden expensive widgets (IntrinsicHeight, etc.) |
+| [`rules/imports.md`](rules/imports.md)             | Absolute `package:` imports only for files in `lib/` |
 
 ## Architecture
 

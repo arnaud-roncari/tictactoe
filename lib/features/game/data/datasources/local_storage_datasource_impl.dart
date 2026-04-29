@@ -1,6 +1,6 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../../domain/datasources/local_storage_datasource.dart';
+import 'package:tic_tac_toe/features/game/domain/datasources/local_storage_datasource.dart';
 
 part 'local_storage_datasource_impl.g.dart';
 

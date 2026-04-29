@@ -1,4 +1,4 @@
-import '../enums/player.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/player.dart';
 
 /// Persists and retrieves who should start the next game.
 abstract class StartingPlayerRepository {

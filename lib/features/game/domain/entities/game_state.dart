@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import '../enums/game_status.dart';
-import '../enums/player.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/game_status.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/player.dart';
 
 part 'game_state.freezed.dart';
 

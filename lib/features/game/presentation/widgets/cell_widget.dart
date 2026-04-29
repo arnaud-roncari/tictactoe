@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../core/design_system/app_design_system.dart';
-import '../../domain/enums/game_status.dart';
+import 'package:tic_tac_toe/core/design_system/app_design_system.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/game_status.dart';
 
 class CellWidget extends StatelessWidget {
   final String? value;

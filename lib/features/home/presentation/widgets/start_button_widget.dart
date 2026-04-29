@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../core/l10n/app_localizations.dart';
+import 'package:tic_tac_toe/core/l10n/app_localizations.dart';
 
 class StartButtonWidget extends StatelessWidget {
   final VoidCallback onPressed;

@@ -1,8 +1,8 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../entities/game_state.dart';
-import '../enums/player.dart';
-import 'init_game_usecase.dart';
-import 'set_starting_player_usecase.dart';
+import 'package:tic_tac_toe/features/game/domain/entities/game_state.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/player.dart';
+import 'package:tic_tac_toe/features/game/domain/usecases/init_game_usecase.dart';
+import 'package:tic_tac_toe/features/game/domain/usecases/set_starting_player_usecase.dart';
 
 part 'restart_game_usecase.g.dart';
 

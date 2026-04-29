@@ -1,7 +1,7 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../enums/player.dart';
-import '../repositories/starting_player_repository.dart';
-import '../../data/repositories/starting_player_repository_impl.dart';
+import 'package:tic_tac_toe/features/game/data/repositories/starting_player_repository_impl.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/player.dart';
+import 'package:tic_tac_toe/features/game/domain/repositories/starting_player_repository.dart';
 
 part 'set_starting_player_usecase.g.dart';
 

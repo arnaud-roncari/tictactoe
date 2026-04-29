@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'app_design_system.dart';
+import 'package:tic_tac_toe/core/design_system/app_design_system.dart';
 
 abstract final class AppTheme {
   static final ThemeData data = ThemeData(

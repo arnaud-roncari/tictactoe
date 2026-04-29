@@ -1,9 +1,9 @@
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../../features/game/presentation/pages/game_page.dart';
-import '../../features/home/presentation/pages/home_page.dart';
-import '../../features/not_found/presentation/pages/not_found_page.dart';
-import '../constants/app_routes.dart';
+import 'package:tic_tac_toe/core/constants/app_routes.dart';
+import 'package:tic_tac_toe/features/game/presentation/pages/game_page.dart';
+import 'package:tic_tac_toe/features/home/presentation/pages/home_page.dart';
+import 'package:tic_tac_toe/features/not_found/presentation/pages/not_found_page.dart';
 
 part 'app_router.g.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../../core/design_system/app_design_system.dart';
-import '../../domain/enums/game_status.dart';
-import '../notifiers/game_notifier.dart';
-import 'cell_widget.dart';
+import 'package:tic_tac_toe/core/design_system/app_design_system.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/game_status.dart';
+import 'package:tic_tac_toe/features/game/presentation/notifiers/game_notifier.dart';
+import 'package:tic_tac_toe/features/game/presentation/widgets/cell_widget.dart';
 
 class BoardWidget extends ConsumerWidget {
   const BoardWidget({super.key});

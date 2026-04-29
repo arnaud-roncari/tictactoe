@@ -1,10 +1,10 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../algorithms/minimax.dart';
-import '../entities/game_state.dart';
-import '../enums/game_status.dart';
-import '../enums/player.dart';
-import '../repositories/starting_player_repository.dart';
-import '../../data/repositories/starting_player_repository_impl.dart';
+import 'package:tic_tac_toe/features/game/data/repositories/starting_player_repository_impl.dart';
+import 'package:tic_tac_toe/features/game/domain/algorithms/minimax.dart';
+import 'package:tic_tac_toe/features/game/domain/entities/game_state.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/game_status.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/player.dart';
+import 'package:tic_tac_toe/features/game/domain/repositories/starting_player_repository.dart';
 
 part 'init_game_usecase.g.dart';
 

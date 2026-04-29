@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../../core/design_system/app_design_system.dart';
-import '../../domain/enums/game_status.dart';
-import '../notifiers/game_notifier.dart';
-import '../widgets/board_widget.dart';
-import '../widgets/result_banner_widget.dart';
+import 'package:tic_tac_toe/core/design_system/app_design_system.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/game_status.dart';
+import 'package:tic_tac_toe/features/game/presentation/notifiers/game_notifier.dart';
+import 'package:tic_tac_toe/features/game/presentation/widgets/board_widget.dart';
+import 'package:tic_tac_toe/features/game/presentation/widgets/result_banner_widget.dart';
 
 class GamePage extends ConsumerWidget {
   const GamePage({super.key});

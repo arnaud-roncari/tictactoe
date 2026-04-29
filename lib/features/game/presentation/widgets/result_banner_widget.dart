@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../../core/design_system/app_design_system.dart';
-import '../../../../core/l10n/app_localizations.dart';
-import '../../domain/enums/game_status.dart';
-import '../notifiers/game_notifier.dart';
+import 'package:tic_tac_toe/core/design_system/app_design_system.dart';
+import 'package:tic_tac_toe/core/l10n/app_localizations.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/game_status.dart';
+import 'package:tic_tac_toe/features/game/presentation/notifiers/game_notifier.dart';
 
 class ResultBannerWidget extends ConsumerWidget {
   final GameStatus status;

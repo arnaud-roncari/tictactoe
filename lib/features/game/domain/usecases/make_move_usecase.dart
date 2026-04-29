@@ -1,8 +1,8 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../algorithms/minimax.dart';
-import '../entities/game_state.dart';
-import '../enums/game_status.dart';
-import '../enums/player.dart';
+import 'package:tic_tac_toe/features/game/domain/algorithms/minimax.dart';
+import 'package:tic_tac_toe/features/game/domain/entities/game_state.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/game_status.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/player.dart';
 
 part 'make_move_usecase.g.dart';
 

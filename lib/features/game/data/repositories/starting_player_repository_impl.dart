@@ -1,9 +1,9 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../../../../core/constants/storage_keys.dart';
-import '../../domain/datasources/local_storage_datasource.dart';
-import '../../domain/enums/player.dart';
-import '../../domain/repositories/starting_player_repository.dart';
-import '../datasources/local_storage_datasource_impl.dart';
+import 'package:tic_tac_toe/core/constants/storage_keys.dart';
+import 'package:tic_tac_toe/features/game/data/datasources/local_storage_datasource_impl.dart';
+import 'package:tic_tac_toe/features/game/domain/datasources/local_storage_datasource.dart';
+import 'package:tic_tac_toe/features/game/domain/enums/player.dart';
+import 'package:tic_tac_toe/features/game/domain/repositories/starting_player_repository.dart';
 
 part 'starting_player_repository_impl.g.dart';
 

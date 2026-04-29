@@ -1,8 +1,8 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../../domain/entities/game_state.dart';
-import '../../domain/usecases/init_game_usecase.dart';
-import '../../domain/usecases/make_move_usecase.dart';
-import '../../domain/usecases/restart_game_usecase.dart';
+import 'package:tic_tac_toe/features/game/domain/entities/game_state.dart';
+import 'package:tic_tac_toe/features/game/domain/usecases/init_game_usecase.dart';
+import 'package:tic_tac_toe/features/game/domain/usecases/make_move_usecase.dart';
+import 'package:tic_tac_toe/features/game/domain/usecases/restart_game_usecase.dart';
 
 part 'game_notifier.g.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../../../core/design_system/app_design_system.dart';
-import '../../../../core/l10n/app_localizations.dart';
-import '../../../../core/constants/app_routes.dart';
-import '../widgets/start_button_widget.dart';
+import 'package:tic_tac_toe/core/constants/app_routes.dart';
+import 'package:tic_tac_toe/core/design_system/app_design_system.dart';
+import 'package:tic_tac_toe/core/l10n/app_localizations.dart';
+import 'package:tic_tac_toe/features/home/presentation/widgets/start_button_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
