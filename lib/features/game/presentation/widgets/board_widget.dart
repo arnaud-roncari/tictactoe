@@ -11,6 +11,7 @@ class BoardWidget extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final gameState = ref.watch(gameNotifierProvider);
+    final notifier = ref.read(gameNotifierProvider.notifier);
 
     return Padding(
       padding: AppPadding.page,
@@ -29,7 +30,7 @@ class BoardWidget extends ConsumerWidget {
             isWinning: gameState.winningCells.contains(index),
             gameStatus: gameState.status,
             onTap: gameState.status == GameStatus.playing
-                ? () => ref.read(gameNotifierProvider.notifier).makeMove(index)
+                ? () => notifier.makeMove(index)
                 : null,
           ),
         ),

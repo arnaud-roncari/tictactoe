@@ -73,6 +73,10 @@ RestartGameUseCase restartGameUseCase(RestartGameUseCaseRef ref) {
 }
 ```
 
+## Declare state and notifier as `final` at the top of `build`
+
+In a `ConsumerWidget`, each provider MUST be retrieved **once** in a `final` variable at the top of `build`. Use `ref.watch(provider)` for state, `ref.read(provider.notifier)` for the notifier. Never repeat the same `ref.*` call within a single `build`. Declare only what the widget actually uses.
+
 ## Notifiers never call repository methods directly
 
 A `Notifier` must **never** call repository methods (e.g. `repo.getStartingPlayer()`, `repo.setStartingPlayer(...)`) directly. Repository calls belong exclusively inside use cases.

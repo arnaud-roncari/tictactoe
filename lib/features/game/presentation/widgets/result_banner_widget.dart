@@ -12,6 +12,7 @@ class ResultBannerWidget extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final notifier = ref.read(gameNotifierProvider.notifier);
     final l10n = AppLocalizations.of(context)!;
 
     final String message = switch (status) {
@@ -31,7 +32,7 @@ class ResultBannerWidget extends ConsumerWidget {
         SizedBox(height: AppSpacing.md),
         ElevatedButton(
           key: const Key('restart_button'),
-          onPressed: () => ref.read(gameNotifierProvider.notifier).restart(),
+          onPressed: () => notifier.restart(),
           child: Text(l10n.restart),
         ),
         SizedBox(height: AppSpacing.lg),
